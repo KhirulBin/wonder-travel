@@ -47,3 +47,100 @@ nav li {
 nav li a {
     text-decoration: none;
 }
+
+.header {
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    margin: 49px auto 100px auto;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    padding-top: 106px;
+    padding-bottom: 106px;
+}
+
+.header-details {
+    padding-bottom: 48px;
+}
+
+.header-tittle {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 24px;
+    margin-left: 287px;
+    margin-right: 287px;
+}
+
+.header-description {
+    width: 676px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: auto;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 48px;
+}
+
+.input {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+    margin-right: 185px;
+    margin-left: 185px;
+    color: rgba(19, 19, 24, 0.50);
+    margin-bottom: 106px;
+}
+
+.where {
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    height: 52px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+}
+
+.where-go{
+    margin-left: 16px;
+    margin-right: 86px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.select-icon{
+    width: 24px;
+    height: 24px;
+    color: #131318B2;
+}
+
+.when {}
+
+.button-find-now {
+    align-items: center;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.search-icon {
+    width: 24px;
+    height: 24px;
+    color: #FFFFFF;
+}
+
+.find-now {
+    color: #FFF;
+    padding: auto;
+    font-size: 16px;
+    font-weight: 700;
+}
