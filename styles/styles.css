@@ -5,6 +5,10 @@
     font-family: 'Mulish', sans-serif;
 }
 
+body{
+    height: 6940px;
+}
+
 /* header section */
 nav {
     display: flex;
@@ -54,6 +58,7 @@ nav li a {
     margin: 49px auto 100px auto;
     width: 1170px;
     height: 500px;
+    margin-bottom: 24px;
     border-radius: 16px;
     padding-top: 106px;
     padding-bottom: 106px;
@@ -119,7 +124,29 @@ nav li a {
     color: #131318B2;
 }
 
-.when {}
+.when {
+    color: rgba(19, 19, 24, 0.50);
+    display: flex;
+    align-items: center;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    justify-content: space-around;
+}
+
+.select {
+    color: rgba(19, 19, 24, 0.50);
+    display: flex;
+    align-items: center;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    justify-content: space-around;
+}
 
 .button-find-now {
     align-items: center;
@@ -145,12 +172,135 @@ nav li a {
     font-weight: 700;
 }
 
+/* popular tour section */
+.popular-tour {
+    margin-left: 135px;
+    margin-right: 135px;
+    display: flex;
+    gap: 53px;
+    margin-bottom: 100px;
+
+}
+
+.popular-tour-tittle {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.popular-tour-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.read-more {
+    align-items: center;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* destination section */
+.destination {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.destination-tittle {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.destination-description {
+    margin-left: auto;
+    margin-right: auto;
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* tour-img */
+.tour-img {
+    margin: 0px 135px 100px 135px;
+}
+
+.img1 {
+    margin-right: 24px;
+    margin-bottom: 24px;
+    width: 573px;
+    height: 300px;
+}
+
+.img2 {
+    margin-bottom: 24px;
+    width: 573px;
+    height: 300px;
+}
+
+.img3 {
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.img4 {
+    margin-bottom: 24px;
+}
+
+.img5 {
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.img6 {
+    margin-right: 24px;
+}
+
+.img7 {
+    width: 673px;
+    height: 300px;
+}
+
+/* why-us section */
+.why-us {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.why-us-tittle {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.why-us-description {
+    margin-left: auto;
+    margin-right: auto;
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
 /* footer section */
 footer {
     width: 100%;
     height: 502px;
     background: rgba(19, 19, 24, 0.05);
-    align-items: center;
+    position: fixed;
 }
 
 .contacts {
@@ -186,4 +336,187 @@ footer {
     font-size: 16px;
     font-weight: 300;
     text-align: center;
+}
+
+/* responsive media */
+@media screen and (max-width: 576px) {
+
+    body{
+        height: 6940px;
+    }
+
+    .nav,
+    .header,
+    main {
+        width: 335px;
+    }
+
+    nav {
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: row;
+        font-width: 120px;
+        margin-top: 18px;
+    }
+
+    nav li {
+        display: none;
+    }
+
+    .company {}
+
+    .company-name {
+        font-size: 21.543px;
+        font-weight: 800;
+    }
+
+    .company-img {
+        width: 28.724px;
+        height: 33.516px;
+    }
+
+    .header {
+        background-image: 100%;
+        height: 483px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 17.8px;
+        align-items: center;
+    }
+
+    .header-details {
+        padding-bottom: 32px;
+    }
+
+    .header-tittle {
+        font-size: 22px;
+        font-weight: 800;
+        margin-bottom: 7px;
+        margin-left: 64px;
+        margin-right: 64px;
+    }
+
+    .header-description {
+        width: 304px;
+        color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-right: 16px;
+        margin-bottom: 32px;
+    }
+
+    .input {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        gap: 16px;
+        margin-right: 40px;
+        margin-left: 40px;
+        color: rgba(19, 19, 24, 0.50);
+        margin-bottom: 48px;
+    }
+
+    .where,
+    .when,
+    .select,
+    .button-find-now {
+        width: 255px;
+    }
+
+    .popular-tour {
+        margin-left: 20px;
+        margin-right: 20px;
+        display: grid;
+        gap: 24px;
+        margin-bottom: 24px;
+    }
+
+    .popular-tour-tittle {
+        font-size: 20px;
+    }
+
+    .popular-tour-description {
+        font-size: 14px;
+        line-height: 24px;
+        width: 335px;
+    }
+
+    .mount-img {
+        width: 335px;
+        height: 342px;
+    }
+
+    .destination {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    ..destination-tittle {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .destination-description {
+        margin-left: auto;
+        margin-right: auto;
+        width: 309px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .tour-img {
+        display: grid;
+        margin: 0px 20px 24px 20px;
+        width: 335px;
+        height: 176px;
+    }
+
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7{
+        width: 335px;
+        height: 176px;
+    }
+
+    .img5{
+        margin-left: 0px;
+    }
+
+    .img6{
+        margin-bottom: 16px;
+    }
+
+    .why-us {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .why-us-tittle {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    .why-us-description {
+        margin-left: auto;
+        margin-right: auto;
+        width: 309px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    footer {
+        width: 375px;
+        height: 309px;
+    }
+    .contacts {
+        padding-top: 24px;
+        padding-bottom: 48px;
+    }
+    .company-footer {
+        display: flex;
+        gap: 9.95px;
+        align-items: center;
+        padding-left: 106px;
+    }
+
 }
