@@ -106,14 +106,14 @@ nav li a {
     text-align: center;
 }
 
-.where-go{
+.where-go {
     margin-left: 16px;
     margin-right: 86px;
     margin-top: 16px;
     margin-bottom: 16px;
 }
 
-.select-icon{
+.select-icon {
     width: 24px;
     height: 24px;
     color: #131318B2;
@@ -143,4 +143,47 @@ nav li a {
     padding: auto;
     font-size: 16px;
     font-weight: 700;
+}
+
+/* footer section */
+footer {
+    width: 100%;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+    align-items: center;
+}
+
+.contacts {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.company-footer {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding-left: 600px;
+}
+
+.company-img-footer {
+    width: 40px;
+    height: 46.673px;
+}
+
+.footer-description {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+.copyright {
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
 }
